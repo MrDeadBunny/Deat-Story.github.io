@@ -1,5 +1,3 @@
-
-
 .background{
 
     background-color: rgb(0, 0, 0)
@@ -12,13 +10,28 @@ font-size: 20px;
 margin:auto;
 padding: auto;
 
+
 }
 
-.welcome {
+.container {
+    flex-direction: row;
+    display: flex;
+    gap: 3%;
+    margin-bottom: 10px;
+}
 
+@media only screen and (max-width: 700px) {
+    .container {
+      flex-direction: column;
+      display: block;
+    }
+}
+
+
+.welcome {
     color: rgb(255, 255, 255);
     font-size: 30px;
-    
+
 }
 
 .Star {
@@ -26,7 +39,150 @@ padding: auto;
     color: rgb(255, 255, 255);
     font-size: 25px;
 
+}
+.hide {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
 
 }
+.large {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+.live {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+.power {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+.pick {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   
+
+}
+.powerful {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   
+
+}
+.What {
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   
+
+}
+.btn{
+    justify-content: flex-start;
+    display: flex;
+    gap: 3%;
+    /* margin-top: 0px;
+    margin-right: 80%; */
+   transition: all 0.3s;
+   padding: 0.5em 1em;
+   color: var(--clr--accent);
+   background-color: var(--clr--rgb);
+   border: 10px solid var(--clr--accent);
+   border-radius: 5px;
+   width: 10px;
+   height: 10px;
+   /* object-fit: contain; */
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+}
+.btn :hover{
+
+    transform: translateY(-10px);
+background-color: var(--clr--accent);
+ 
+
+
+}
+.b2{
+    justify-content: flex-end;
+    display: flex;
+    gap: 3%;
+    /* margin-top: 0px;
+    margin-left: 85%; */
+   transition: all 0.3s;
+   padding: 0.5em 1em;
+   color: var(--clr--accent);
+   background-color: var(--clr--rgb);
+   border: 10px solid var(--clr--accent);
+   border-radius: 5px;
+   width: 10px;
+   height: 10px;
+   object-fit: contain;
+   position: fixed;
+   bottom: 88px;
+   right: 0px;
+}
+
+.b2 :hover{
+
+    transform: translateY(-10px);
+background-color: var(--clr--accent);
+
+
+}
+
+.main-btn{
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+    /* margin-top: 0px;
+    margin-right: 85%;
+    margin-left: 50%; */
+    /* margin-bottom: -200px; */
+   transition: all 0.3s;
+   padding: 0.5em 1em;
+   color: var(--clr--accent);
+   background-color: var(--clr--rgb);
+   border: 10px solid var(--clr--accent);
+   border-radius: 5px;
+   width: 10px;
+   height: 10px;
+   object-fit: contain;
+   position: fixed;
+   bottom: 0px;
+   right: 750px;
+
+
+
+}
+
+.main-btn :hover{
+
+    transform: translateY(-10px);
+background-color: var(--clr--accent);
+
+}
+
+
+
+/* .back1{
+
+
+}
+.back2{
+
+    position: relative;
+    right: 500px;
+} */
+
 
 
